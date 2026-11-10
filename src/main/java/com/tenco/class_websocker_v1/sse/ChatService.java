@@ -1,4 +1,4 @@
-package com.tenco.class_websocker_v1.stomp.chat;
+package com.tenco.class_websocker_v1.sse;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Sort;

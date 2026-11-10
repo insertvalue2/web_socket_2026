@@ -1,4 +1,4 @@
-package com.tenco.class_websocker_v1.stomp.chat;
+package com.tenco.class_websocker_v1.sse;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
