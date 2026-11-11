@@ -1,4 +1,4 @@
-package com.tenco.class_websocker_v1.sse;
+package com.tenco.class_websocker_v1.websocket;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

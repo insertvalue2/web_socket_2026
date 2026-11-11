@@ -1,4 +1,4 @@
-package com.tenco.class_websocker_v1.sse;
+package com.tenco.class_websocker_v1.websocket;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Sort;
