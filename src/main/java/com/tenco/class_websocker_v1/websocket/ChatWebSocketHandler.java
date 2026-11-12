@@ -29,6 +29,8 @@ public class ChatWebSocketHandler extends TextWebSocketHandler {
     private static final String PREFIX_MESSAGE = "MESSAGE:";
     private static final String PREFIX_ERROR = "ERROR:";
 
+
+
     // 연결된 탭마다 WebSocketSession 하나
     private final List<WebSocketSession> sessionList = new CopyOnWriteArrayList<>();
 
@@ -40,7 +42,7 @@ public class ChatWebSocketHandler extends TextWebSocketHandler {
     @Override
     public void afterConnectionEstablished(WebSocketSession session) throws Exception {
         sessionList.add(session);
-        log.info("연결 : {}, 현결 연결 수 : {}", session.getId(), sessionList.size());
+        log.info("연결 : {}, 현재 연결 수 : {}", session.getId(), sessionList.size());
     }
 
     /**
